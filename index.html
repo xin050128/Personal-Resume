@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="XIONG Xin (Shane) - Personal Website | CUHK Shenzhen Finance, CUHK MSc Finance">
+    <title>Xin (Shane) Xiong | Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Noto+Sans+SC:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">Shane Xiong</a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#education">Education</a>
+                <a href="#experience">Experience</a>
+                <a href="#leadership">Leadership</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <div class="hero-layout">
+                <div class="hero-text">
+                    <p class="hero-greeting">Hello, I'm</p>
+                    <h1 class="hero-name">熊芯 <span class="hero-name-en">Xin (Shane) Xiong</span></h1>
+                    <p class="hero-subtitle">BBA Finance @ CUHK Shenzhen · MSc Finance @ CUHK (Incoming)</p>
+                    <p class="hero-description">
+                        横跨战略咨询、PE/FA 投行与券商研究的复合背景。在百度 AI 云从事战略分析，在招商资本参与 PE 投资，在光源资本服务具身智能融资。擅长行业研究、财务分析与战略规划。
+                    </p>
+                    <div class="hero-cta">
+                        <a href="#contact" class="btn btn-primary">联系我</a>
+                        <a href="#experience" class="btn btn-outline">查看经历</a>
+                    </div>
+                    <div class="hero-contact">
+                        <span><i class="fas fa-map-marker-alt"></i> 深圳</span>
+                        <span><i class="fas fa-envelope"></i> xiongxin0407@163.com</span>
+                    </div>
+                </div>
+                <div class="hero-photo">
+                    <div class="photo-frame">
+                        <!-- ⚠️ 将你的照片命名为 photo.jpg 放入 assets 文件夹即可自动显示 -->
+                        <img src="assets/photo.jpg" alt="Xin (Shane) Xiong" onerror="this.parentElement.innerHTML='<div class=\'photo-placeholder\'><i class=\'fas fa-user\'></i><span>Add photo.jpg<br>to assets/</span></div>'">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">关于我 <span class="title-en">About Me</span></h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        我是香港中文大学（深圳）金融学大四学生（GPA <strong>3.5/4.0</strong>），即将于 2026 年秋季入读<strong>香港中文大学金融学硕士</strong>项目。曾入选<strong>院长嘉许名单</strong>（Dean's List）。
+                    </p>
+                    <p>
+                        我在金融与战略领域积累了多元化的实习经验——在<strong>百度 AI 云</strong>战略团队研究海外云市场与 AI 基础设施趋势；在<strong>招商资本</strong>医疗组参与生物医药股权投资；在<strong>光源资本</strong> AGI 组服务具身智能独角兽融资；在<strong>民生证券</strong>电子组撰写公开发表的半导体深度报告。
+                    </p>
+                    <p>
+                        我能用 <strong>Python + SQL</strong> 处理数据，用 <strong>Bloomberg / Wind</strong> 获取市场洞察。雅思 <strong>7.5</strong> + GRE <strong>326</strong>，中英粤三语流利，基础德语。
+                    </p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <span class="stat-number">3.5</span>
+                        <span class="stat-label">GPA / 4.0</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">326</span>
+                        <span class="stat-label">GRE</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">7.5</span>
+                        <span class="stat-label">雅思 IELTS</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">4</span>
+                        <span class="stat-label">段实习经历</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">教育经历 <span class="title-en">Education</span></h2>
+            <div class="timeline">
+
+                <!-- Master's -->
+                <div class="timeline-item">
+                    <div class="timeline-dot timeline-dot-future"></div>
+                    <div class="timeline-content card card-future">
+                        <div class="card-header">
+                            <div class="card-header-left">
+                                <h3>香港中文大学 <span class="school-tag master-tag">硕士</span></h3>
+                                <p class="card-subtitle">The Chinese University of Hong Kong · 香港, HKSAR</p>
+                            </div>
+                            <span class="card-period">2026.09 - 2027.11 (即将入学)</span>
+                        </div>
+                        <p class="card-degree">MSc Finance · 金融学理学硕士</p>
+                    </div>
+                </div>
+
+                <!-- Bachelor's -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content card">
+                        <div class="card-header">
+                            <div class="card-header-left">
+                                <h3>香港中文大学（深圳） <span class="school-tag bachelor-tag">本科</span></h3>
+                                <p class="card-subtitle">The Chinese University of Hong Kong, Shenzhen · 深圳</p>
+                            </div>
+                            <span class="card-period">2022.09 - 2026.07</span>
+                        </div>
+                        <p class="card-degree">BBA Finance · 金融学工商管理学士 | GPA: 3.5 / 4.0</p>
+                        <div class="card-tags">
+                            <span class="tag tag-award"><i class="fas fa-star"></i> Dean's List 院长嘉许名单</span>
+                        </div>
+                        <div class="courses">
+                            <h4>核心课程</h4>
+                            <div class="course-list">
+                                <span class="course-tag">Investment Analysis & Portfolio Management</span>
+                                <span class="course-tag">Options and Futures</span>
+                                <span class="course-tag">Econometrics</span>
+                                <span class="course-tag">Statistics</span>
+                                <span class="course-tag">Corporate Finance</span>
+                                <span class="course-tag">Intro to Computer Science</span>
+                                <span class="course-tag">IT in Business Applications</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+        <div class="container">
+            <h2 class="section-title">实习经历 <span class="title-en">Professional Experience</span></h2>
+            <div class="timeline">
+
+                <!-- Baidu -->
+                <div class="timeline-item">
+                    <div class="timeline-dot timeline-dot-accent"></div>
+                    <div class="timeline-content card">
+                        <div class="card-header">
+                            <div class="card-header-left">
+                                <h3>百度 Baidu, Inc <span class="industry-tag">AI / Cloud</span></h3>
+                                <p class="card-subtitle">Summer Strategy Analyst · AI Cloud Group · 北京</p>
+                            </div>
+                            <span class="card-period">2026.05 - 2026.07</span>
+                        </div>
+                        <ul class="achievement-list">
+                            <li>在 AI 云战略团队聚焦<strong>海外云市场</strong>，协助百度云战略规划。</li>
+                            <li>开展 <strong>"Neocloud"</strong> 新兴赛道行业研究，对标全球先行者商业模式，评估增长前景与<strong>国内市场进入机会</strong>。</li>
+                            <li>追踪<strong>半导体财报</strong>预测 AI 基础设施趋势，为内部芯片部门提供决策参考。</li>
+                            <li>评估 <strong>Google 端到端 AI 战略</strong>，提出内部基础设施与产品协同建议。</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- China Merchants Capital -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content card">
+                        <div class="card-header">
+                            <div class="card-header-left">
+                                <h3>招商资本 China Merchants Capital <span class="industry-tag">PE / 医疗</span></h3>
+                                <p class="card-subtitle">Private Equity Intern · Healthcare Group · 深圳</p>
+                            </div>
+                            <span class="card-period">2025.11 - 2026.02</span>
+                        </div>
+                        <ul class="achievement-list">
+                            <li>支持生物医药投资标的<strong>筛选、基本面分析与执行</strong>。</li>
+                            <li><strong>项目经历：某多肽 API 生产商 ~¥1.5 亿潜在投资</strong></li>
+                            <li>撰写 <strong>IC 备忘录（投决会备忘录）</strong>，综合行业研究与公司基本面分析。</li>
+                            <li>开展 <strong>GLP-1 价值链研究</strong>，识别具有吸引力的投资环节与增长驱动因素。</li>
+                            <li>对标分析 <strong>4 家可比公司</strong>在业务策略与现金流结构上的差异，评估目标公司的竞争定位。</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Lighthouse Capital -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content card">
+                        <div class="card-header">
+                            <div class="card-header-left">
+                                <h3>光源资本 Lighthouse Capital <span class="industry-tag">FA / AGI</span></h3>
+                                <p class="card-subtitle">FA Investment Banking Intern · AGI Group · 深圳</p>
+                            </div>
+                            <span class="card-period">2025.09 - 2026.02</span>
+                        </div>
+                        <ul class="achievement-list">
+                            <li>协助 AI 赛道多个交易的<strong>项目寻源、市场 mapping 与执行</strong>。</li>
+                            <li>筛选 <strong>20+</strong> 具身智能与 AI Agent 领域公司，将研究整理为投资报告。</li>
+                            <li><strong>项目经历：某头部具身智能独角兽 ¥5 亿融资轮财务顾问</strong></li>
+                            <li>制作 <strong>完整 pitchbook</strong>，执行 10+ 场管理层访谈支持融资推进。</li>
+                            <li>通过行业研究与技术论文审查，对<strong>技术护城河</strong>进行尽职调查。</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Minsheng Securities -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content card">
+                        <div class="card-header">
+                            <div class="card-header-left">
+                                <h3>民生证券 Minsheng Securities <span class="industry-tag">券商研究</span></h3>
+                                <p class="card-subtitle">Equity Research Intern · Electronics Group · 深圳</p>
+                            </div>
+                            <span class="card-period">2024.04 - 2024.08</span>
+                        </div>
+                        <ul class="achievement-list">
+                            <li>覆盖<strong>半导体公司</strong>，进行基本面研究与财报分析。</li>
+                            <li>撰写并<strong>公开发表</strong>一篇半导体公司深度研究报告，涵盖基本面、市场趋势、核心业务与竞争格局，识别关键增长领域。</li>
+                            <li>发表 <strong>8 篇财报点评报告</strong>，评估财务表现与核心经营动态。</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Leadership & Activities -->
+    <section id="leadership" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">课外活动 <span class="title-en">Leadership & Activities</span></h2>
+            <div class="activities-grid">
+
+                <!-- Bain Cup -->
+                <div class="activity-card card">
+                    <div class="activity-icon">🏆</div>
+                    <div class="card-header">
+                        <div class="card-header-left">
+                            <h3>Bain Cup 贝恩杯案例大赛 <span class="role-tag">队长</span></h3>
+                            <p class="card-subtitle">Bain & Company</p>
+                        </div>
+                        <span class="card-period">2026.06</span>
+                    </div>
+                    <ul class="achievement-list">
+                        <li>制定<strong> 3 年盈利增长战略</strong>及四线城市评估模型，优化区域投资决策。</li>
+                        <li>解决负单位经济模型问题，荣获 <strong>"Outstanding Case"（优秀案例奖）</strong>。</li>
+                    </ul>
+                </div>
+
+                <!-- Badminton -->
+                <div class="activity-card card">
+                    <div class="activity-icon">🏸</div>
+                    <div class="card-header">
+                        <div class="card-header-left">
+                            <h3>羽毛球社 · 财务部部长</h3>
+                            <p class="card-subtitle">Head of Finance Department</p>
+                        </div>
+                        <span class="card-period">2022.09 - 2023.06</span>
+                    </div>
+                    <ul class="achievement-list">
+                        <li>组织 <strong>8 场</strong>羽毛球赛事，参与人数超 <strong>1000+</strong>，优化分配节省 <strong>15%</strong> 预算。</li>
+                        <li>与香港中文大学开展校际交流活动，获得 <strong>¥5,000</strong> 赞助。</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">技能 <span class="title-en">Skills & Interests</span></h2>
+            <div class="skills-grid">
+                <div class="skill-category card">
+                    <h3><i class="fas fa-language"></i> 语言能力</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-name-row"><span class="skill-name">普通话 (母语)</span></div>
+                            <div class="skill-bar"><div class="skill-fill" style="width:100%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name-row"><span class="skill-name">英语 · IELTS 7.5 · GRE 326</span></div>
+                            <div class="skill-bar"><div class="skill-fill" style="width:90%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name-row"><span class="skill-name">粤语 (流利)</span></div>
+                            <div class="skill-bar"><div class="skill-fill" style="width:80%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name-row"><span class="skill-name">德语 (基础)</span></div>
+                            <div class="skill-bar"><div class="skill-fill" style="width:25%"></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category card">
+                    <h3><i class="fas fa-code"></i> 技术能力</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-name-row"><span class="skill-name">Python</span></div>
+                            <div class="skill-bar"><div class="skill-fill" style="width:85%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name-row"><span class="skill-name">SQL</span></div>
+                            <div class="skill-bar"><div class="skill-fill" style="width:82%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name-row"><span class="skill-name">Excel / VLOOKUP</span></div>
+                            <div class="skill-bar"><div class="skill-fill" style="width:92%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name-row"><span class="skill-name">Stata</span></div>
+                            <div class="skill-bar"><div class="skill-fill" style="width:65%"></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category card">
+                    <h3><i class="fas fa-database"></i> 专业工具 & 兴趣</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-name-row"><span class="skill-name">Bloomberg Terminal</span></div>
+                            <div class="skill-bar"><div class="skill-fill" style="width:78%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name-row"><span class="skill-name">Wind 数据库</span></div>
+                            <div class="skill-bar"><div class="skill-fill" style="width:85%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">🎾 Tennis · 🏸 Badminton</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-tags">
+                <span class="tag">Python</span><span class="tag">SQL</span><span class="tag">Stata</span>
+                <span class="tag">Excel</span><span class="tag">Bloomberg</span><span class="tag">Wind</span>
+                <span class="tag">行业研究</span><span class="tag">财务建模</span><span class="tag">战略分析</span>
+                <span class="tag">PE/VC</span><span class="tag">FA 投行</span><span class="tag">尽职调查</span>
+                <span class="tag">中英粤三语</span><span class="tag">GRE 326</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">联系我 <span class="title-en">Contact</span></h2>
+            <div class="contact-info" style="max-width: 560px; margin: 0 auto;">
+                <p class="contact-intro" style="text-align: center;">
+                    港中深金融学本科即将毕业，2026 年秋季入读港中文金融硕士。持续关注 AI 与半导体赛道，积极寻求一二级市场及战略咨询方向的职业机会。欢迎联系！
+                </p>
+                <div class="contact-methods" style="justify-content: center;">
+                    <a href="mailto:xiongxin0407@163.com" class="contact-method">
+                        <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                        <div><h4>邮箱</h4><p>xiongxin0407@163.com</p></div>
+                    </a>
+                    <div class="contact-method">
+                        <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div><h4>所在地</h4><p>深圳</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p class="footer-name">Xin (Shane) Xiong</p>
+                <div class="footer-social">
+                    <a href="mailto:xiongxin0407@163.com" title="Email"><i class="fas fa-envelope"></i></a>
+                    <a href="#" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
+                </div>
+                <p class="footer-copy">&copy; 2026 Xin (Shane) Xiong. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
