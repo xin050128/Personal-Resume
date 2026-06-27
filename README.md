@@ -1,2 +1,2 @@
 # Personal-Resume
-My personal resume created by AI
+My personal resume created by AI（CC)
